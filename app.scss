@@ -1,82 +1,68 @@
 body {
   background-color: #21C08B;
-  font-family: "Muli", sans-serif;
+  font-family: 'Muli', sans-serif;
   margin: 0px;
-}
-
+  }
 .header {
   align-items: center;
   background-color: #21C08B;
-  display: flex;
+  display:flex; 
   height: 80px;
   justify-content: space-between;
   width: 100%;
 }
-
 .header__img {
   width: 200px;
   margin-top: 10px;
   margin-left: 10px;
 }
-
 .header__menu {
   margin-right: 30px;
 }
-
 .header__menu ul {
   display: none;
   list-style: none;
-  padding: 0px;
+  padding:0px;
   position: absolute;
   width: 100px;
   text-align: right;
   margin: 0px 0px 0px -14px;
 }
-
 .header__menu:hover ul, ul:hover {
   display: block;
 }
-
 .header__menu li {
   margin: 10px 0px;
 }
-
 .header__menu li a {
   color: white;
   text-decoration: none;
 }
-
 .header__menu li a:hover {
   text-decoration: underline;
 }
-
 .header__menu--profile {
   align-items: center;
   cursor: pointer;
   display: flex;
   margin-right: 8px;
 }
-
 .header__menu--profile img {
   margin-right: 8px;
   width: 40px;
 }
-
-.header__menu--profile p {
+.header__menu--profile p{
   margin: 0px;
   color: white;
 }
-
 /*Main */
-.main {
+.main{
   height: 300px;
 }
-
-.main__title {
-  color: white;
-  font-size: 25px;
+.main__title{
+    color: white;
+    font-size: 25px;
 }
-
 .main__input {
   background-color: rgba(255, 255, 255, 0.2);
   border: 2px solid #FFFFFF;
@@ -87,9 +73,8 @@ body {
   padding: 0 20px;
   width: 70%;
 }
-
 ::placeholder {
-  color: white;
+    color: white;
 }
 
 /*Login*/
@@ -101,8 +86,7 @@ body {
   justify-content: center;
   padding: 0px 30px;
   min-height: calc(100vh - 200px);
-}
-
+  }
 .login__container {
   align-items: center;
   background-color: rgba(255, 255, 255, 0.1);
@@ -115,61 +99,50 @@ body {
   min-height: 700px;
   padding: 60px 68px 40px;
   width: 300px;
-}
-
+  }
 .login__container--form {
   display: flex;
   flex-direction: column;
-}
-
+  }
 .login__container--form label {
   font-size: 14px;
-}
-
+  }
 .login__container--remember-me {
   color: white;
   display: flex;
   justify-content: space-between;
   margin-top: 10px;
-}
-
+  }
 .login__container--remember-me a {
   color: white;
   font-size: 14px;
   text-decoration: none;
-}
-
+  }
 .login__container--remember-me a:hover {
   text-decoration: underline;
-}
-
+  }
 .login__container--social-media > div {
   align-items: center;
   display: flex;
   font-size: 14px;
   margin-bottom: 10px;
-}
-
+  }
 .login__container--social-media > div > img {
   width: 30px;
   margin-right: 10px;
 }
-
 .login__container--register {
-  font-size: 14px;
+  font-size: 14px;  
 }
-
 .login__container--register a {
   color: white;
   font-weight: bold;
-  font-size: 16px;
+  font-size: 16px;  
   text-decoration: none;
 }
-
 .login__container--register a:hover {
   text-decoration: underline;
 }
-
 .input {
   background-color: transparent;
   border-left: 0px;
@@ -177,37 +150,33 @@ body {
   border-right: 0px;
   border-bottom: 2px solid white;
   font-size: 16px;
-  font-family: "Muli", sans-serif;
+  font-family: 'Muli', sans-serif;
   margin-bottom: 20px;
   padding: 0px 20px;
   outline: none;
   height: 50px;
 }
-
 ::placeholder {
   color: white;
 }
-
 .forgot {
   margin-top: 10px;
   color: white;
   text-decoration: underline;
 }
-
 .button {
   background-color: rgba(255, 255, 255, 0.1);
   border: none;
   border-radius: 25px;
   color: white;
   cursor: pointer;
-  font-size: 16px;
-  font-weight: bold;
-  font-family: "Muli", sans-serif;
+  font-size: 16px;  
+  font-weight: bold; 
+  font-family: 'Muli', sans-serif;
   height: 50px;
   letter-spacing: 1px;
   margin: 10px 0px;
 }
-
 .footer {
   background-color: #AB88FF;
   display: flex;
@@ -215,17 +184,14 @@ body {
   height: 100px;
   width: 100%;
 }
-
 .footer a {
   color: white;
   cursor: pointer;
   font-size: 14px;
   padding-left: 30px;
-  text-decoration: none;
+  text-decoration: none;  
 }
-
 .footer a:hover {
-  text-decoration: underline;
+  text-decoration: underline; 
 }
 
-/*# sourceMappingURL=app.css.map */
